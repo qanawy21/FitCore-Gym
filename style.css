@@ -1,0 +1,542 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear-fix{
+    clear: both;
+}
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+#heroSection{
+    background-color:#F9FBFC;
+    height: 80vh;
+    padding: 80px 0;
+}
+#heroSection .container .item{
+    width: 50%;
+    float: left;
+}
+#heroSection .container .image-hero{
+    width: 30%;
+    float: right;
+}
+.image-hero{
+    margin-top:40px;
+    margin-right: 100px;
+    border-radius: 20px;
+    height: 400px;
+}
+#heroSection .container .item h1{
+font-size: 60px;
+font-weight: 700;
+color: #101828;
+line-height: 75px;
+margin-top: 0;
+margin-bottom: 25px;
+}
+#heroSection .container .item p{
+font-size: 20px;
+color: #4A5565;
+line-height: 33px;
+font-weight:400;
+margin-top: 0;
+}
+#heroSection .container .item .start{
+    width: 180px;
+    height: 60px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#heroSection .container .item .learn{
+    width: 140px;
+    height: 60px;
+    font-size: 16px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+#whyChooseUs .container .item-sec2{
+    text-align: center;
+}
+.item-sec2 h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 36px;
+    margin-bottom: 25px;
+}
+.item-sec2 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #4a5565;
+    margin-bottom: 70px;
+}
+.resones{
+    width: 100%;
+    margin-bottom: 75px;
+}
+.inner-item-1 , .inner-item-2{
+    float: left;
+    width: calc(100%/3);
+    height: 320px;
+    padding-right:20px ;
+}
+.inner-item-3{
+    float: left;
+    width: calc(100%/3);
+    height: 320px;
+}
+.square-1 , .square-3 , .square-4{
+    margin: auto;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    padding-top:18px ;
+    padding-left: 17.5px;
+}
+.square-1{
+    background-color:#155DFC;
+}
+.square-3{
+    background-color: #009966;
+}
+.square-4{
+    background-color: #9810FA;
+}
+.square-1 .square-2{
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.square-3 .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F9FBFC;
+}
+.square-4 .square-5{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #F9FBFC;
+}
+.premium-equipment p ,.expert-trainers p ,.flexible-hours p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #364153 ;
+}
+.premium-equipment{
+    border: 1px solid #a1c7f8;
+    border-radius: 20px;
+    background-color: #DBEAFE;
+}
+.expert-trainers{
+    border: 1px solid #8af3be;
+    border-radius: 20px;
+    background-color: #D0FAE5;
+}
+.flexible-hours{
+    border: 1px solid #c18cf9;
+    border-radius: 20px;
+    background-color: #F3E8FF;
+}
+.premium-equipment ,.expert-trainers, .flexible-hours{
+    width: 100%;
+    height: 100%;
+    padding: 60px 45px;
+}
+.more-than-just-gym{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 60px;
+}
+.more-than-just-gym .img-item{
+    width: 50%;
+    height: 360px;
+    float: left;
+    overflow: hidden;
+    padding-right:50px ;
+}
+.more-than-just-gym .img-item img{
+    width: 100%;
+    border-radius: 20px;
+    height: 350px;
+}
+.item-more-than-just-gym{
+    float: right;
+    width: 50%;
+}
+.inner-item-just-gym-sec{
+    width: 100%;
+    height: 100%;
+}
+.inner-item-just-gym-sec h2{
+    font-size: 30px;
+    color: #101828;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 0;
+}
+.inner-item-just-gym-sec h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #101828;
+    font-weight: 600;
+    line-height: 28px;
+}
+.inner-item-just-gym-sec p{
+    font-size: 16px;
+    color: #4a5565;
+    font-weight: 400;
+    line-height: 24px;
+}
+.group-classes , .nutrition-guidance , .recovery-zone{
+    border-left: 4.5px solid black;
+    padding: 0 20px;
+}
+#reviews{
+    width: 100%;
+    height: 100vh;
+    background-color:#F1F5F9;
+}
+#reviews .container{
+    padding-top: 50px;
+}
+#reviews .container .item .inner-item-reviews-sec{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#reviews .container .item{
+    margin-bottom: 50px;
+}
+#reviews .container .item .inner-item-reviews-sec h2{
+    font-size: 36px;
+    color: #101828;
+    font-weight: 700;
+    line-height: 40px;
+}
+#reviews .container .item .inner-item-reviews-sec p{
+    font-size: 20px;
+    color: #4a5565;
+    font-weight: 400;
+    line-height: 28px;
+}
+#reviews img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.comments{
+    width: 100%;
+}
+.comments .first-client,.comments .second-client ,.comments .third-client{
+    width: calc(100%/3);
+    height: 270px;
+    float: left;
+}
+.comments .first-client,.comments .second-client{
+    padding-right: 25px;
+}
+.inner-first-client , .inner-second-client , .inner-third-client{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.comments .inner-first-client{
+    background-color:#EFF6FF;
+    border-radius: 20px;
+    border: 1px solid #accdf9;
+}
+.comments .inner-second-client{
+    background-color:#ECFDF5;
+    border-radius: 20px;
+    border: 1px solid #94ecc3;
+}
+.comments .inner-third-client{
+    background-color:#FAF5FF;
+    border-radius: 20px;
+    border: 1px solid #ba81f4;
+}
+.profile-image{
+display: inline-block;
+vertical-align: bottom;
+}
+.profile-info{
+    display: inline-block;
+    margin-left: 20px;
+}
+.profile-info h3{
+    font-size: 18px;
+    color: #101828;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 7px;
+}
+.profile-info span{
+    font-size: 16px;
+    color: #4a5565;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.comments p{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #364153;
+    font-weight: 400;
+    line-height: 26px;
+}
+.profile-image-and-info{
+    margin-bottom: 20px;
+}
+.review-sec-kpi{
+    width: 100%;
+    height: 150px;
+    background-color: #F1F5F9;
+    border: 2px solid #e0e2e4;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.active-members-kpi , .expert-trainers-kpi , .group-classes-kpi , .access-hours-kpi {
+    width: calc(100%/4);
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+    float: left;
+}
+.review-sec-kpi .num{
+    font-size: 36px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 40px;
+    display: inline-block;
+    margin-bottom:15px;
+}
+.review-sec-kpi .word{
+    font-size: 16px;
+    color: #4a5565;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+    margin-bottom:25px;
+}
+#membershipForm .container{
+    padding-top: 50px;
+    margin-bottom: 70px;
+}
+.header-sec-membership-form{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header-sec-membership-form h2{
+    font-size: 36px;
+    color: #101828;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.header-sec-membership-form p{
+    font-size: 20px;
+    color: #4a5565;
+    font-weight: 400;
+    line-height: 28px;
+}
+.form{
+    width: 70%;
+    height: 800px;
+    margin: auto;
+    background-color: #F9FAFB;
+    border-radius: 15px;
+    padding: 50px;
+}
+.form-1{
+    width: 100%;
+}
+.first-name,.last-name{
+    float: left;
+    width: 50%;
+}
+.first-name{
+    padding-right: 20px;
+}
+.input-form-fn #firstName,.input-form-ln #lastName,#email,#phoneNumber,#membershipType{
+    width: 100%;
+    height: 50px;
+    background-color:transparent ;
+    border: 1px solid #ccced0;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+    color:#807D7E;
+    font-weight: 400;
+    line-height: 28px;
+}
+#membershipType{
+    color:#000000;
+}
+.form-1 , .form-2 , .form-3 ,.form-4 ,.form-5{
+    margin-bottom: 20px;
+}
+#fitnessGoals{
+    width: 100%;
+    height: 100px;
+    background-color:transparent ;
+    border: 1px solid #ccced0;
+    border-radius: 5px;
+    padding: 15px;
+    resize: none;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Inter", sans-serif;
+}
+.join{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.p-membership-form{
+    text-align: center;
+    margin-top: 25px;
+    color:#4a5565;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+#membershipForm .label{
+    font-size: 18px;
+    color:#364153;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+#footer{
+    background-color: #101828;
+    color: white;
+}
+#footer .container{
+    padding: 60px 0;
+}
+.contacts{
+    width: 100%;
+    margin-top: 0;
+    padding: 30px 0 ;
+}
+.fit-core , .quick-links , .contact-info{
+    float: left;
+    vertical-align: middle;
+    padding: 0 25px;
+}
+.fit-core{
+    width: 50%;
+    padding-right: 30px;
+}
+.quick-links , .contact-info{
+    width: 25%;
+}
+#footer a{
+    color: #99a1af;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.quick-links a{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.fit-core h2{
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 0;
+}
+.fit-core p{
+    font-weight: 400;
+    color: #99a1af;
+    font-size: 18px;
+    line-height: 29px;
+}
+.fit-core a{
+    display:inline-block;
+    margin-right: 20px;
+}
+.quick-links h3,.contact-info h3{
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 0;
+}
+.contact-info{
+    padding-left: 0;
+}
+.contact-info h4{
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.contact-info p{
+    font-weight: 400;
+    color: #99a1af;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 3px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color:#313946;
+}
+.all-cookies{
+    width: 100%;
+    margin-top: 30px;
+}
+.copy-right{
+    float: left;
+    font-weight: 400;
+    color: #6a7282;
+    font-size: 14px;
+    line-height: 20px;
+}
+.policy{
+    float: right;
+    margin: 16px 0;
+}
+#footer .all-cookies a{
+    font-weight: 400;
+    color: #6a7282;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    margin-left: 30px;
+}
